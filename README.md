@@ -1,4 +1,4 @@
-# sprint-bot-project
+# Sprint Bot Project
 This project lives at https://github.com/emagarotto/Sprint-Bot (code is private).
 
 # SprintBot — AI-Powered UX Agents
