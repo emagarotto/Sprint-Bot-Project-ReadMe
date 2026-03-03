@@ -1,7 +1,7 @@
 # Sprint Bot Project
 This project lives at https://github.com/emagarotto/Sprint-Bot (code is private).
 
-# SprintBot — AI-Powered UX Agents
+# SprintBot: AI-Powered UX Agents
 
 A platform offering 24 production-ready AI agents that automate the entire UX/UCD process from discovery through validation. Users choose from plug-and-play Claude Skills, Gemini Gems, or ChatGPTs.
 
