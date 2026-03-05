@@ -1,11 +1,8 @@
-# Sprint Bot Project
-This project lives at https://github.com/emagarotto/Sprint-Bot (code is private).
+# SprintBot — AI-Powered UX Agents
 
-# SprintBot: AI-Powered UX Agents
+Marketing website for SprintBot, a platform offering 27 production-ready AI agents that automate the entire UX/UCD process from discovery through validation. Users choose from plug-and-play Claude Skills, Gemini Gems, or ChatGPTs.
 
-A platform offering 24 production-ready AI agents that automate the entire UX/UCD process from discovery through validation. Users choose from plug-and-play Claude Skills, Gemini Gems, or ChatGPTs.
-
-**Phases 1-7 Complete | 24 Agents | Production Ready**
+**Phases 1-7 Complete | 27 Agents | Production Ready**
 
 ## Tech Stack
 
@@ -35,7 +32,7 @@ npm run dev
 | `/how-it-works` | Process overview |
 | `/about` | About page |
 
-## 📦 Complete Agent Library (24 Agents)
+## 📦 Complete Agent Library (27 Agents)
 
 ### Phase 1: Discovery (3 agents)
 1. **Stakeholder Interview Agent** — AI-powered stakeholder interviews with goal extraction
@@ -54,26 +51,29 @@ npm run dev
 10. **Persona Generator** — User segmentation and persona creation
 11. **Journey Mapper** — Customer journey mapping
 
-### Phase 4: Definition (4 agents)
+### Phase 4: Definition (5 agents)
 12. **Problem Framing Agent** — Problem statement generation
 13. **Information Architecture Agent** — Site structure and navigation design
 14. **Requirements Documentation Agent** — Functional and technical requirements
 15. **Feature Prioritization Agent** — RICE/MoSCoW scoring and roadmaps
+25. **Accessibility Requirements Agent** — Define WCAG requirements and compliance scope early
 
 ### Phase 5: Ideation (2 agents)
 16. **Concept Development Agent** — Ideation facilitation and concept generation
 17. **Concept Evaluation Agent** — Concept scoring and feasibility assessment
 
-### Phase 6: Design Production (5 agents)
+### Phase 6: Design Production (6 agents)
 18. **Wireframing Agent** — Low-fidelity wireframe generation
 19. **Prototyping Agent** — Interactive prototype specifications
 20. **Visual Design Agent** — High-fidelity mockup creation
 21. **Design System Agent** — Component libraries and style guides
 22. **Content Strategy Agent** — Content hierarchy and messaging
+26. **Accessibility Design Review Agent** — Review designs for inclusive patterns before development
 
-### Phase 7: Validation (2 agents)
+### Phase 7: Validation (3 agents)
 23. **Usability Testing Planner** — Test plan and scenario development
 24. **Design Refinement Agent** — Issue prioritization and iteration planning
+27. **Accessibility Audit Agent** — Audit products against WCAG and generate remediation reports
 
 ## 💰 Pricing Tiers
 
@@ -81,11 +81,11 @@ npm run dev
 |---|---|---|
 | **Free** | 5 essential agents | $0 forever |
 | **Pro** | 15 agents (5 free + 10 more) | $195 one-time |
-| **Enterprise** | All 24 agents + priority support | $899 one-time |
+| **Enterprise** | All 27 agents + priority support | $899 one-time |
 
 ## Agent Data
 
-All 24 agents are defined in `src/data/agents.ts` with prompts for three AI platforms (ChatGPT, Claude, Gemini). A script at `scripts/export-prompts.ts` can export all prompts to text files.
+All 27 agents are defined in `src/data/agents.ts` with prompts for three AI platforms (ChatGPT, Claude, Gemini). A script at `scripts/export-prompts.ts` can export all prompts to text files.
 
 ## Project Structure
 
